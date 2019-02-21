@@ -14,10 +14,16 @@ import javax.swing.JOptionPane;
 public class MostrarList {
     
     public static void mostrar(ClassList lista){
-            for (int j = 0; j < lista.lista.size(); j++) {
-                JOptionPane.showMessageDialog(null,"indice"+"    "+ "elemento\n"+j+"         "+ lista.getElement(j));
+        int j = 0;
+        String test1= "indice"+"   "+ "elemento\n";
+        String test2= "";
+            for (j = 0; j < lista.lista.size(); j++) {
+                test2 =test2+j+"           "+ lista.getElement(j)+"\n";
+//JOptionPane.showMessageDialog(null,"indice"+"    "+ "elemento\n"+j+"         "+ lista.getElement(j));
+//JOptionPane.showMessageDialog(null, test1 + test2);
                 
             }
-            
+//JOptionPane.showMessageDialog(null,"indice"+"    "+ "elemento\n"+j+"         "+ lista.getElement(j));
+JOptionPane.showMessageDialog(null, test1 + test2);
         }
     }
