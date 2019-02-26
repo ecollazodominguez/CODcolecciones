@@ -5,8 +5,9 @@
  */
 package hashmap;
 
+import Adapter.Hash2List;
 import ArrayList.ClassList;
-import ArrayList.MostrarList;
+import ArrayList.MostrarClassList;
 
 /**
  *
@@ -18,20 +19,22 @@ public class Colecciones {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ClassHash hash = new ClassHash();
+//        ClassList arr = new ClassList();
+//        
+//        arr.putElement("Uno");
+//        arr.putElement("Dos");
+//        arr.putElement("Tres");
+//        MostrarClassList.mostrar(arr);
         
-        hash.putValue(1, "Hola");
-        hash.putValue(2, "Adios");
-        System.out.println(hash.getValue(1));
-        System.out.println(hash.getValue(2));
         
-        ClassList arr = new ClassList();
+        ClassHash miHash = new ClassHash();
+        miHash.putValue(10, "uno");
+        miHash.putValue(11, "dos");
+        miHash.putValue(12, "tres");
         
-        arr.putElement("patata");
-        arr.putElement("fresa");
-        arr.putElement("manzana");
-        arr.putElement("melocoton");
-        MostrarList.mostrar(arr);
+        Hash2List miHash2List = new Hash2List(miHash);
+        MostrarClassList.mostrar(miHash2List);
     }
     
+   
 }

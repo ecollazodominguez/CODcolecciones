@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  * @author ecollazodominguez
  */
 public class ClassHash implements InterfaceHash {
-    HashMap<Integer,String> contenedor = new HashMap<>();
+     public HashMap<Integer,String> contenedor = new HashMap<>();
 
     @Override
     public void putValue(int key, String value) {
