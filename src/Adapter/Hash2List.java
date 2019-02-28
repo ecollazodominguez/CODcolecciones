@@ -20,15 +20,7 @@ import java.util.Iterator;
 public class Hash2List extends ClassList {
     
     
-    public Hash2List(ClassHash hashAconvertir) {
-        //con interator
-//        Iterator it = hashAconvertir.contenedor.keySet().iterator();
-//        while(it.hasNext()){
-//            lista.add(hashAconvertir.contenedor.get(it.next()));
-//        }
-
-
-        
+    public Hash2List(ClassHash hashAconvertir) {     
         lista.addAll(hashAconvertir.contenedor.values()); //Con values
             
         }

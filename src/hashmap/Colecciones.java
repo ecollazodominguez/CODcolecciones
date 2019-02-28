@@ -19,14 +19,6 @@ public class Colecciones {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-//        ClassList arr = new ClassList();
-//        
-//        arr.putElement("Uno");
-//        arr.putElement("Dos");
-//        arr.putElement("Tres");
-//        MostrarClassList.mostrar(arr);
-        
-        
         ClassHash miHash = new ClassHash();
         miHash.putValue(10, "uno");
         miHash.putValue(11, "dos");
