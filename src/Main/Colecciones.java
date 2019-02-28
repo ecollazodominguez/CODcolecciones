@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hashmap;
+package Main;
 
 import Adapter.Hash2List;
 import ArrayList.ClassList;
 import ArrayList.MostrarClassList;
+import hashmap.ClassHash;
 
 /**
  *
