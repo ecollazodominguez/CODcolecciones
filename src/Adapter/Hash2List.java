@@ -6,12 +6,8 @@
 package Adapter;
 
 import ArrayList.ClassList;
-import ArrayList.InterfaceList;
 import hashmap.ClassHash;
-import hashmap.InterfaceHash;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
+
 
 /**
  *
