@@ -19,11 +19,12 @@ public class Colecciones {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //Creamos un objeto ClassHash
         ClassHash miHash = new ClassHash();
         miHash.putValue(10, "uno");
         miHash.putValue(11, "dos");
         miHash.putValue(12, "tres");
-        
+        //lo convertimos en ArrayList
         Hash2List miHash2List = new Hash2List(miHash);
         MostrarClassList.mostrar(miHash2List);
     }

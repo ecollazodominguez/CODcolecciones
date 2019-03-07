@@ -8,7 +8,7 @@ package ArrayList;
 import java.util.ArrayList;
 
 /**
- *
+ * Creamos clase en la que usaremos ArrayList
  * @author ecollazodominguez
  */
 public class ClassList implements InterfaceList {

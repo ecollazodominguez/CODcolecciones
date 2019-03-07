@@ -8,7 +8,7 @@ package hashmap;
 import java.util.HashMap;
 
 /**
- *
+ * Clase en la que usaremos el HashMap
  * @author ecollazodominguez
  */
 public class ClassHash implements InterfaceHash {

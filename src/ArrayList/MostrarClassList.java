@@ -8,7 +8,7 @@ package ArrayList;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Clase en la que mostramos el ArrayList
  * @author ecollazodominguez
  */
 public class MostrarClassList {
